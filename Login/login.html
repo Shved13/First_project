@@ -9,7 +9,8 @@
         <div class="background">
         <img src="image/SnapLogoPage.png" class="logoSnap">
         <h1 class="stringLogin">Login</h1>
-        <form>
+        <div class="fieldsWithForms">
+        <form class="formForLogin">
             <div class="formbox">
                 <label for="email">Email</label>
             <input type="email" required name="userEmail" placeholder="username@gmail.com" size="18"/>
@@ -19,12 +20,28 @@
             <input type="password" required name="password" placeholder="Password" size="18" />
             </div>
             <div class="forgotPassword">
-                 <a href="register.html">Forgot Password?</a>
+                 <a href="">Forgot Password?</a>
             </div>
-            <div class="submit-button">
+            <div class="signIn-button">
                 <input type="submit" value="Sign in">
             </div>
         </form>
+        <div>
+            <div>or continue with</div>
+            <a class="logo" href="google.com">
+                <img src="image/googleLogo.png">
+            </a>
+            <a class="logo" href="google.com">
+                 <img src="image/gitLogo.png">
+            </a>
+            <a class="logo" href="google.com">
+                <img src="image/facebookLogo.png">
+            </a>
+            <div>Don't have an account yet? 
+                <a href="register.html">Register for free</a>
+            </div>
+        </div>
+        </div>
         <img src="image/BirdPictureLogoPage.png" class="birdPict" >
         </div>
     </body>
