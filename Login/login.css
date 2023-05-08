@@ -47,18 +47,41 @@ html, body, div, h1, h2, h3, p, a, img, li, form, article, aside, footer, header
     left: 150px;
 }
 .formForLogin label{
-font-family: 'Actor';
-font-size: 35px;
-font-weight: 400;
-color: rgb(65,64,66);
+    font-family: 'Actor';
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(65,64,66);
 }
 .formForLogin input{
-     width: 485px;
-     height: 57px;
-     border-radius: 50px;
+    width: 485px;
+    height: 57px;
+    border-radius: 40px;
+    border: 1px solid #BCBEC0;
 }
-.formForLogin input[type=submit]{
+.formForLogin input::placeholder{
+    display: block;
+    padding-left: 27px;
+}
+.formForLogin label[for=password]{
+    display: block;
+    margin-top: 20px;
+}
+.forgotPassword{
+    display: block;
+    margin-top: 19px;
+    margin-bottom: 32px;
+}
+.forgotPassword a{
+    text-decoration: none;
+    color:rgb(70,86,133);
+    font-size: 18px;
+    font-family: 'Actor'
+}
+.signIn-button input{
     background-color: rgb(253, 132, 31);
     color: white;
     border: 0px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Actor';
 }
