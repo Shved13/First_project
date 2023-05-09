@@ -54,12 +54,9 @@ html, body, div, h1, h2, h3, p, a, img, li, form, article, aside, footer, header
 }
 .formForLogin input{
     width: 485px;
-    height: 57px;
+    height: 50px;
     border-radius: 40px;
     border: 1px solid #BCBEC0;
-}
-.formForLogin input::placeholder{
-    display: block;
     padding-left: 27px;
 }
 .formForLogin label[for=password]{
@@ -68,8 +65,8 @@ html, body, div, h1, h2, h3, p, a, img, li, form, article, aside, footer, header
 }
 .forgotPassword{
     display: block;
-    margin-top: 19px;
-    margin-bottom: 32px;
+    margin-top: 15px;
+    margin-bottom: 22px;
 }
 .forgotPassword a{
     text-decoration: none;
@@ -84,4 +81,48 @@ html, body, div, h1, h2, h3, p, a, img, li, form, article, aside, footer, header
     font-size: 30px;
     font-weight: 400;
     font-family: 'Actor';
+    width: 512px;
+    height: 57px;
+    cursor: pointer;
+}
+.stringContinue{
+    display: block;
+    text-align: center;
+    width: 512px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Actor';
+    color: rgb(121,137,149);
+}
+.WraperForButtonsRegister{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 512px;
+}
+.ButtonsRegister{
+    display: block;
+    text-align: center;
+    width: 153px;
+    height: 57px;
+    border-radius: 40px;
+    border: 1px solid #BCBEC0;
+    background-color: white;
+    cursor: pointer;
+}
+.stringAccount{
+    display: block;
+    text-align: center;
+    width: 512px;
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Actor';
+    color: rgb(121,137,149);
+}
+.stringAccount a{
+    text-decoration: none;
+    color: rgb(70,86,133);
 }
