@@ -7,49 +7,39 @@
         <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="background">
-        <img src="image/SnapLogoPage.png" class="logoSnap">
-        <h1 class="stringLogin">Login</h1>
-        <div class="fieldsWithForms">
-        <form class="formForLogin">
-            <div class="formbox">
-                <label for="email">Email</label>
-            <input type="email" required name="userEmail" placeholder="username@gmail.com" size="18"/>
-            </div>
-            <div class="formbox">
-                <label for="password">Password</label>
-            <input type="password" required name="password" placeholder="Password" size="18" />
-            </div>
-            <div class="forgotPassword">
-                 <a href="">Forgot Password?</a>
-            </div>
-            <div class="signIn-button">
-                <input type="submit" value="Sign in">
-            </div>
-        </form>
-            <div class="stringContinue">or continue with</div>
-            <div class='WraperForButtonsRegister'>
-                <form action="google.com">
-                    <button class="ButtonsRegister">
-                        <img src="image/googleLogo.png" class="buttonLogoImage">
-                    </button>
+        <div class="wrepper">
+            <img src="image/SnapLogoPage.png" class="logo-snap" alt="LogoSnap">
+            <h1 class="text-login">Login</h1>
+            <div class="forms-container">
+                <form class="form-for-login">
+                    <label for="email">Email</label>
+                        <input type="email" required name="userEmail" placeholder="username@gmail.com" size="18"/>
+                    <label for="password">Password</label>
+                        <input type="password" required name="password" placeholder="Password" size="18" />
+                    <div class="forgot-password text">
+                    <a href="" >Forgot Password?</a>
+                    </div>
+                        <input type="submit" value="Sign in" class="sign-in-button">
                 </form>
-                 <form action="facebook.com">
-                    <button class="ButtonsRegister">
-                        <img src="image/gitLogo.png">
-                    </button>
-                 </form>
-                <form  action="google.com">
-                    <button class="ButtonsRegister">
-                        <img src="image/facebookLogo.png">
-                    </button>
-                </form>
-            </div>
-            <div class="stringAccount">Don't have an account yet? 
-                <a href="register.html">Register for free</a>
+                <div class="continue-with text">or continue with
+                </div>
+                <div class='wraper-for-buttons-register'>
+                    <a href="" class="social-media-buttons">
+                        <img src="image/googleLogo.svg" alt="google">
+                    </a>
+                    <a href="" class="social-media-buttons">
+                        <img src="image/gitLogo.svg" alt="gitHub">
+                    </a>
+                    <a href="" class="social-media-buttons">
+                        <img src="image/facebookLogo.svg" alt="facebook">
+                    </a>
+                </div>
+                <div class="proposition-for-account text">Don't have an account yet? 
+                    <a href="register.html">Register for free</a>
+                </div>
             </div>
         </div>
-        <img src="image/BirdPictureLogoPage.png" class="birdPict" >
+        <div class="bird-pict">
         </div>
     </body>
 </html>

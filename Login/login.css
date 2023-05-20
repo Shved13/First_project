@@ -5,125 +5,96 @@ html, body, div, h1, h2, h3, p, a, img, li, form, article, aside, footer, header
     font-size: 100%;
     vertical-align: baseline;
 }
-.background{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+html{
+    font-size: 20px;
+}
+body{
     background: linear-gradient(to right, rgb(255, 255, 255) 57%, rgb(253, 132, 31) 43%);
-}
-.logoSnap{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    left: 153px;
-    top: 50px;
-}
-.stringLogin{
-    display: flex;
-    align-items: center;
-    position:absolute;
-    left: 149px;
-    top: 130px;
     font-family: 'Actor';
+    font-weight: 400;
     font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 54px;
 }
-.birdPict{
-    position: absolute;
-    width: 555px;
-    height: 522px;
-    left: 700px;
-    top: 111px;
-}
-.fieldsWithForms{
-    display:flex;
+.wrepper{
+    display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 492px;
-    height: 518px;
-    top: 200px;
-    left: 150px;
+    width: 33%;
+    margin-top: 4%;
+    margin-left: 10%;
 }
-.formForLogin label{
-    font-family: 'Actor';
-    font-size: 35px;
-    font-weight: 400;
+.logo-snap{
+    display: block;
+    width: 10rem;
+    margin-bottom: 6%;
+}
+.text-login{
+    font-size: 2.25rem;
+    margin-bottom: 3%;
+}
+.form-for-login label{
+    font-size: 1.75rem;
     color: rgb(65,64,66);
 }
-.formForLogin input{
-    width: 485px;
-    height: 50px;
-    border-radius: 40px;
+.form-for-login input{
+    width: 100%;
+    height: 2.8rem;
+    border-radius: 2rem;
     border: 1px solid #BCBEC0;
-    padding-left: 27px;
 }
-.formForLogin label[for=password]{
-    display: block;
-    margin-top: 20px;
+::placeholder{
+    padding-left: 5%;
 }
-.forgotPassword{
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 22px;
+.form-for-login label[for=password]{
+    margin-top: 3%;
 }
-.forgotPassword a{
+.text{
+    font-size: 1rem;
+    color: rgb(121,137,149);
+    text-align: center;
+}
+.text a{
     text-decoration: none;
-    color:rgb(70,86,133);
-    font-size: 18px;
-    font-family: 'Actor'
+    color: rgb(70,86,133);
 }
-.signIn-button input{
+.forgot-password{
+    margin: 3% auto 5%;
+    text-align:justify;
+}
+.sign-in-button{
     background-color: rgb(253, 132, 31);
     color: white;
     border: 0px;
-    font-size: 30px;
-    font-weight: 400;
-    font-family: 'Actor';
-    width: 512px;
-    height: 57px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
-.stringContinue{
-    display: block;
-    text-align: center;
-    width: 512px;
-    padding-top: 40px;
-    padding-bottom: 15px;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Actor';
-    color: rgb(121,137,149);
+.continue-with{
+    margin: 10% auto 3%;
 }
-.WraperForButtonsRegister{
+.wraper-for-buttons-register{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 512px;
+    width: 100%;
 }
-.ButtonsRegister{
+.social-media-buttons{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 153px;
-    height: 57px;
-    border-radius: 40px;
+    width: 7.6rem;
+    height: 2.85rem;
+    border-radius: 2rem;
     border: 1px solid #BCBEC0;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
 }
-.stringAccount{
-    display: block;
-    text-align: center;
-    width: 512px;
-    padding-top: 20px;
-    font-size: 19px;
-    font-weight: 400;
-    font-family: 'Actor';
-    color: rgb(121,137,149);
+.proposition-for-account{
+    margin-top: 3%; 
 }
-.stringAccount a{
-    text-decoration: none;
-    color: rgb(70,86,133);
+.bird-pict{
+    background-image: url(image/BirdPictureLogoPage.png);
+    background-size: cover;
+    position: absolute;
+    width: 27.75rem;
+    height: 26.1rem;
+    left: 46%;
+    top: 15%;
 }
