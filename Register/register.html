@@ -4,8 +4,39 @@
         <meta charset="utf-8">
         <title>SnapRegister</title>
         <link rel="stylesheet" type="text/css" href="register.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
     </head>
     <body>
-
+        <img src="images/SnapLogoPage.png" class="logo-snap" alt="LogoSnap">
+        <h1 class="text-h1">Register</h1>
+        <div class="wrapper-for-register-form">
+            <form class="personal-info-form">
+                <p>Personal information</p>
+                <label>Full name</label>
+                <input type="text" placeholder="Your full name">
+                <label>Mobile No.</label>
+                <input type="tel" placeholder="38064489067">
+                <label>E-mail</label>
+                <input type="email" placeholder="username@gmail.com">
+                <label>Password</label>
+                <input type="password" placeholder="Password">
+                <label>Confirm password</label>
+                <input type="password" placeholder="Password">
+            </form>
+            <div class="avatar-selection">
+                <p>Profile Picture</p>
+                <img src="images/no_avatar.svg" alt="your profile picture">
+                <button class="upload-image-button">Upload Image</button>
+                <p>or</p>
+                <p>select Avatar</p>
+                <div class="offered-avatars">
+                    <button class="avatar"><img src="images/avatar1.svg" alt="avatar1"></button>
+                    <button class="avatar"><img src="images/avatar2.svg" alt="avatar2"></button>
+                    <button class="avatar"><img src="images/avatar3.svg" alt="avatar3"></button>
+                </div>
+            </div>
+            <button class="register-button">Register</button>
+        </div>
     </body>
 </html>

@@ -1,1 +1,65 @@
-
+body{
+    background: #FEDCC5 url(images/background-bird-pict.png) no-repeat;
+    font-family: 'Advent Pro';
+}
+.logo-snap{
+    display: block;
+    width: 200px;
+    margin-bottom: 17px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.text-h1{
+    font-family: 'Actor';
+    font-size: 45px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+.wrapper-for-register-form{
+    display: flex;
+    flex-flow: row wrap;
+    
+    height: 545px;
+    width: 1256px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    border-radius: 40px;
+}
+.personal-info-form{
+    display:flex;
+    flex-direction: column;
+    width: 406px;
+    height: 450px;
+    margin-right: 228px;
+    margin-left: 107px;
+}
+.personal-info-form label{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2A1E17;
+    margin-top: 10px;
+}
+.personal-info-form input{
+    width: 404px;
+    border-radius: 20px;
+    border: 0px;
+    padding: 14.5px 22px;
+}
+.avatar-selection{
+    width: 320px;
+    height:450px;
+}
+.register-button{
+    width: 404px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #F25019;
+    color: #FFFFFF;
+    border: 0px;
+    font-size: 21px;
+    font-family: 'Actor';
+    margin: auto;
+    margin-top: 10px;
+}
