@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>SnapRegister</title>
+        <link rel="stylesheet" type="text/css" href="../common_style_for_login&register_pages.css"/>
         <link rel="stylesheet" type="text/css" href="register.css"/>
         <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
         <h1 class="text-h1">Register</h1>
         <div class="wrapper-for-register-form">
             <form class="personal-info-form">
-                <p>Personal information</p>
+                <p class="section-form-name">Personal information</p>
                 <label>Full name</label>
                 <input type="text" placeholder="Your full name">
                 <label>Mobile No.</label>
@@ -25,18 +26,22 @@
                 <input type="password" placeholder="Password">
             </form>
             <div class="avatar-selection">
-                <p>Profile Picture</p>
+                <p class="text-avatar-selection profile-picture-text">Profile Picture</p>
                 <img src="images/no_avatar.svg" alt="your profile picture">
-                <button class="upload-image-button">Upload Image</button>
-                <p>or</p>
-                <p>select Avatar</p>
+                <button class="upload-image-button all-buttons-on-page">Upload Image<i class='icon-upload'></i></button>
+                <div class="line-or-line">
+                    <div class="line"></div>
+                    <span class="text-avatar-selection">or</span>
+                    <div class="line"></div>
+                </div>
+                <p class="text-avatar-selection select-avatar-text">select Avatar</p>
                 <div class="offered-avatars">
-                    <button class="avatar"><img src="images/avatar1.svg" alt="avatar1"></button>
-                    <button class="avatar"><img src="images/avatar2.svg" alt="avatar2"></button>
-                    <button class="avatar"><img src="images/avatar3.svg" alt="avatar3"></button>
+                    <button class="avatar avatar1"></button>
+                    <button class="avatar avatar2"></button>
+                    <button class="avatar avatar3"></button>
                 </div>
             </div>
-            <button class="register-button">Register</button>
+            <button class="register-button all-buttons-on-page">Register</button>
         </div>
     </body>
 </html>
