@@ -1,1 +1,122 @@
 
+body{
+    background: #FEDCC5 url(images/background-bird-pict.png) no-repeat;
+    font-family: 'Advent Pro';
+}
+.wrapper-for-register-form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 530px;
+    width: 1256px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 40px;
+}
+.personal-info-form{
+    display: flex;
+    flex-direction: column;
+    width: 406px;
+    height: 450px;
+    margin-right: 278px;
+}
+.section-form-name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.personal-info-form label{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2A1E17;
+    margin-top: 10px;
+}
+.personal-info-form input{
+    width: 355px;
+    border-radius: 20px;
+    border: none;
+    padding: 14.5px 22px;
+}
+.avatar-selection{
+    width: 342px;
+    height: 370px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.text-avatar-selection{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F25019;
+}
+.profile-picture-text{
+    color: #2A1E17;}    
+.upload-image-button{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.icon-upload{
+    display: block;
+    width: 22px;
+    height: 15px;
+    margin-left: 7px;
+    background: url(images/icon_upload_image.svg);
+}
+.line-or-line{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.line{
+    background-color: #F25019;
+    height: 1px;
+    width: 150px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.select-avatar-text{
+    width: 342px;
+}
+.offered-avatars{
+    width: 342px;
+    display: flex;
+    gap: 15px;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.avatar1{
+    background-image: url(images/avatar1.svg);
+}
+.avatar2{
+    background-image: url(images/avatar2.svg);
+}
+.avatar3{
+    background-image: url(images/avatar3.svg);
+}
+.register-button{
+    width: 355px;
+    height: 45px;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.all-buttons-on-page{
+    background-color: #F25019;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Actor';
+}
