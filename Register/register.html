@@ -3,9 +3,45 @@
     <head>
         <meta charset="utf-8">
         <title>SnapRegister</title>
+        <link rel="stylesheet" type="text/css" href="../common/style.css"/>
         <link rel="stylesheet" type="text/css" href="register.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
     </head>
     <body>
-
+        <img src="images/SnapLogoPage.png" class="logo-snap" alt="LogoSnap">
+        <h1 class="text-h1">Register</h1>
+        <div class="wrapper-for-register-form">
+            <form class="personal-info-form">
+                <p class="section-form-name">Personal information</p>
+                <label>Full name</label>
+                <input type="text" placeholder="Your full name">
+                <label>Mobile No.</label>
+                <input type="tel" placeholder="38064489067">
+                <label>E-mail</label>
+                <input type="email" placeholder="username@gmail.com">
+                <label>Password</label>
+                <input type="password" placeholder="Password">
+                <label>Confirm password</label>
+                <input type="password" placeholder="Password">
+            </form>
+            <div class="avatar-selection">
+                <p class="text-avatar-selection profile-picture-text">Profile Picture</p>
+                <img src="images/no_avatar.svg" alt="your profile picture">
+                <button class="upload-image-button all-buttons-on-page">Upload Image<i class='icon-upload'></i></button>
+                <div class="line-or-line">
+                    <div class="line"></div>
+                    <span class="text-avatar-selection">or</span>
+                    <div class="line"></div>
+                </div>
+                <p class="text-avatar-selection select-avatar-text">select Avatar</p>
+                <div class="offered-avatars">
+                    <button class="avatar avatar1"></button>
+                    <button class="avatar avatar2"></button>
+                    <button class="avatar avatar3"></button>
+                </div>
+            </div>
+            <button class="register-button all-buttons-on-page">Register</button>
+        </div>
     </body>
 </html>
